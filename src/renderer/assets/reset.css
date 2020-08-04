@@ -1,0 +1,27 @@
+a {
+  text-decoration: none;
+}
+
+input,
+select,
+textarea,
+button,
+div,
+a {
+
+  &:focus,
+  &:active {
+    outline: none;
+  }
+}
+
+*,
+::before,
+::after {
+  border-color: theme('colors.gray.200');
+}
+
+::selection {
+  color: theme('colors.gray.900');
+  background: theme('colors.gray.200');
+}

@@ -1,0 +1,9 @@
+@import "tailwindcss/base";
+@import "reset";
+
+/* Components */
+@import "tailwindcss/components";
+@import "buttons";
+
+/* Utilities */
+@import "tailwindcss/utilities";
